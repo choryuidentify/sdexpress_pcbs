@@ -96,7 +96,7 @@
 	)
 	(fp_line
 		(start -9.9 81)
-		(end 2.025 81)
+		(end -6.725 81)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -105,8 +105,8 @@
 		(uuid "eed334b1-ba78-4f05-a285-f0048d960378")
 	)
 	(fp_line
-		(start 2.025 81)
-		(end 2.025 78.1)
+		(start -6.725 81)
+		(end -6.725 78.1)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -115,8 +115,8 @@
 		(uuid "3cab8986-2681-440f-91f8-86413641161b")
 	)
 	(fp_line
-		(start 3.225 78.1)
-		(end 3.225 81)
+		(start -5.525 78.1)
+		(end -5.525 81)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -125,7 +125,7 @@
 		(uuid "a187494a-f013-4eda-a221-c0d405095f41")
 	)
 	(fp_line
-		(start 3.225 81)
+		(start -5.525 81)
 		(end 9.9 81)
 		(stroke
 			(width 0.1)
@@ -186,6 +186,17 @@
 		(uuid "cf3bc720-5487-4356-b7ad-f8f4cff0f828")
 	)
 	(fp_arc
+		(start -6.725 78.1)
+		(mid -6.125 77.5)
+		(end -5.525 78.1)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ffb64d32-e034-41c2-ba1d-2870b2a9e524")
+	)
+	(fp_arc
 		(start 1.75 1)
 		(mid 0 2.75)
 		(end -1.75 1)
@@ -195,17 +206,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "2abcb8be-bd45-4b41-9006-6ec006d351e2")
-	)
-	(fp_arc
-		(start 2.025 78.1)
-		(mid 2.625 77.5)
-		(end 3.225 78.1)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "ffb64d32-e034-41c2-ba1d-2870b2a9e524")
 	)
 	(fp_arc
 		(start 9.9 77.6)
@@ -431,6 +431,62 @@
 		(thermal_bridge_angle 45)
 		(uuid "9fd6f71d-5bb3-4cac-8f9e-e383fe130de8")
 	)
+	(pad "24" connect rect
+		(at 3.5 79.475)
+		(size 0.35 1.95)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "133239a4-28d3-4994-9049-715f1bf2f102")
+	)
+	(pad "25" connect rect
+		(at 3.25 79.725)
+		(size 0.35 1.45)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "ec4afea6-ef27-4e3e-af09-e974425d3163")
+	)
+	(pad "26" connect rect
+		(at 3 79.475)
+		(size 0.35 1.95)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "45b6504c-ace4-4aaa-86b5-e842158d895e")
+	)
+	(pad "27" connect rect
+		(at 2.75 79.725)
+		(size 0.35 1.45)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "c10fd6d6-02a5-431b-a0b4-b276961932a3")
+	)
+	(pad "28" connect rect
+		(at 2.5 79.475)
+		(size 0.35 1.95)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "05a3953d-e8b2-4566-aceb-dbce5319958a")
+	)
+	(pad "29" connect rect
+		(at 2.25 79.725)
+		(size 0.35 1.45)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "0bc766a7-27e6-485c-a0a1-df9d58cd6882")
+	)
+	(pad "30" connect rect
+		(at 2 79.475)
+		(size 0.35 1.95)
+		(layers "B.Cu" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "774e2add-e8fc-44fb-b91c-526b2d4af19b")
+	)
+	(pad "31" connect rect
+		(at 1.75 79.725)
+		(size 0.35 1.45)
+		(layers "F.Cu" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "00c03a0f-c9e9-4597-a32f-65c66fda96ad")
+	)
 	(pad "32" connect rect
 		(at 1.5 79.475)
 		(size 0.35 1.95)
@@ -619,62 +675,6 @@
 		(layers "B.Cu" "B.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "5a9875c1-174e-4a86-a217-8bbf3d6e38ef")
-	)
-	(pad "59" connect rect
-		(at -5.25 79.725)
-		(size 0.35 1.45)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "c70f21f4-8ff5-4e6c-be0d-864770d833fd")
-	)
-	(pad "60" connect rect
-		(at -5.5 79.475)
-		(size 0.35 1.95)
-		(layers "B.Cu" "B.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "a565e46e-dd5e-484f-b880-410b5c46019d")
-	)
-	(pad "61" connect rect
-		(at -5.75 79.725)
-		(size 0.35 1.45)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "fea91be9-3e10-4163-9ba3-aec6d2b482f6")
-	)
-	(pad "62" connect rect
-		(at -6 79.475)
-		(size 0.35 1.95)
-		(layers "B.Cu" "B.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "cbf67236-5994-4a2f-8c94-395c65af3e7c")
-	)
-	(pad "63" connect rect
-		(at -6.25 79.725)
-		(size 0.35 1.45)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "a5c4a938-a334-429a-a77f-f1cb9df596ef")
-	)
-	(pad "64" connect rect
-		(at -6.5 79.475)
-		(size 0.35 1.95)
-		(layers "B.Cu" "B.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "99db2e58-16ef-4600-a7a2-3887e78bc173")
-	)
-	(pad "65" connect rect
-		(at -6.75 79.725)
-		(size 0.35 1.45)
-		(layers "F.Cu" "F.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "58a57ad6-b519-467c-bc40-6cde3988d6df")
-	)
-	(pad "66" connect rect
-		(at -7 79.475)
-		(size 0.35 1.95)
-		(layers "B.Cu" "B.Mask")
-		(thermal_bridge_angle 45)
-		(uuid "e6d42baa-bce5-4dc2-a580-25693093c003")
 	)
 	(pad "67" connect rect
 		(at -7.25 79.725)
