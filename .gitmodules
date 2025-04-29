@@ -1,4 +1,0 @@
-[submodule "libraries/adryzz-m2-key-e-footprints"]
-	path = libraries/adryzz-m2-key-e-footprints
-	url = https://github.com/adryzz/M.2-Key-E-Footprints.git
-	branch = master
