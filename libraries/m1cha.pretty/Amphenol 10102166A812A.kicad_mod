@@ -291,7 +291,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../../libraries/3dmodels/10102166.stp"
+	(model "${KIPRJMOD}/../libraries/3dmodels/10102166.stp"
 		(offset
 			(xyz 0 -14.5 0)
 		)
