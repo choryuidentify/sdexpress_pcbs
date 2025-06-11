@@ -1,5 +1,8 @@
 # microSD Express card to FPC
 
+> [!WARNING]
+> This didn't work out due issues with properly soldering the FPC.
+
 This allows exposing the microSD Express pins via a
 [custom FPC](../fpc/README.md) to connect it to the
 [FPC to M.2-M socket](../fpc-to-m2_m_socket/README.md).

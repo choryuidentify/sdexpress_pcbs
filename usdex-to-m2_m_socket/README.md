@@ -1,14 +1,14 @@
-# FPC to M.2-M socket
+# microSD Express card to M.2-M socket
 
-Connects an M.2 Key-M SSD to [FPC](../fpc/README.md).
+Connects an M.2 Key-M SSD to a microSD Express slot.
 
 JLCPCB order parameters:
 
-- **Gerber file**: fpc-to-m2_m_socket_Y4
+- **Gerber file**: usdex-to-m2_m_socket_Y8
 - **Build Time**: 3-4 days (PCBA Only)
 - **Base Material**: FR-4
 - **Layers**: 6
-- **Dimension**: 99.3 mm* 70.58 mm
+- **Dimension**: 4 mm* 54.42 mm
 - **PCB Qty**: 5
 - **Product Type**: Industrial/Consumer electronics
 - **Different Design**: 1
@@ -24,7 +24,7 @@ JLCPCB order parameters:
 - **Deburring/Edge rounding**: No
 - **Outer Copper Weight**: 1 oz
 - **Inner Copper Weight**: 0.5 oz
-- **Gold Fingers**: No
+- **Gold Fingers**: Yes
 - **Electrical Test**: Flying Probe Fully Test
 - **Castellated Holes**: no
 - **Press-Fit Hole**: No
@@ -35,7 +35,7 @@ JLCPCB order parameters:
 - **4-Wire Kelvin Test**: No
 - **Paper between PCBs**: No
 - **Appearance Quality**: IPC Class 2* Standard
-- **Confirm Production file**: Yes
+- **Confirm Production file**: No
 - **Silkscreen Technology**: Ink-jet/Screen Printing Silkscreen
 - **Package Box**: With JLCPCB logo
 - **Inspection Report**: No

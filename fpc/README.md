@@ -1,5 +1,8 @@
 # FPC
 
+> [!WARNING]
+> This didn't work out due issues with properly soldering the FPC.
+
 A custom FPC which connects
 [microSD Express card to FPC](../usdex_card-to-fpc/README.md) and
 [FPC to M.2-M socket](../fpc-to-m2_m_socket/README.md).

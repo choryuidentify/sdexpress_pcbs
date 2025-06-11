@@ -1,5 +1,8 @@
 # FPC to M.2-M socket
 
+> [!WARNING]
+> This didn't work out due issues with properly soldering the FPC.
+
 Connects an M.2 Key-M SSD to [FPC](../fpc/README.md).
 
 JLCPCB order parameters:

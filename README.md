@@ -7,3 +7,4 @@ Express cards.
 - [microSD Express card to FPC](usdex_card-to-fpc/README.md)
 - [fpc](fpc/README.md)
 - [FPC to M.2-M socket](fpc-to-m2_m_socket/README.md)
+- [microSD Express card to M.2-M socket](usdex-to-m2_m_socket/README.md)
