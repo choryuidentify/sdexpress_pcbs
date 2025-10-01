@@ -38,7 +38,7 @@ JLCPCB order parameters:
 - **Edge Plating**: No
 - **Mark on PCB**: Remove Mark
 - **Blind Slot**: No
-- **Min via hole size/diameter**: 0.2mm/(0.3/0.35mm)
+- **Min via hole size/diameter**: 0.3mm/(0.4/0.45mm)
 - **4-Wire Kelvin Test**: Yes
 - **Paper between PCBs**: No
 - **Appearance Quality**: IPC Class 2 Standard
